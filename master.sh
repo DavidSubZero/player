@@ -1,1 +1,1 @@
-echo "test">>/home/$USER/Desktop/hi.log
+echo "test">>/home/hi.log
