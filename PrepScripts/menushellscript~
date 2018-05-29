@@ -1,0 +1,9 @@
+cd /media/subzeroicecream/SCRIPTSTUFF;
+sudo cp -R /media/subzeroicecream/SCRIPTSTUFF/10periodic /etc/apt/apt.conf.d/;
+chmod 700 ubuntu-bloat-removal.sh;
+sudo sh ubuntu-bloat-removal.sh;
+sudo apt-get remove chromium-browser;
+chmod +x installer-lnx-64.sh; 
+bash installer-lnx-64.sh;
+sudo sh croninstall.sh;
+sudo xrandr --output HDMI1 --rotate left;
